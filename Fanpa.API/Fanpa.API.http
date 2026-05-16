@@ -1,0 +1,6 @@
+@Fanpa.API_HostAddress = http://localhost:5049
+
+GET {{Fanpa.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

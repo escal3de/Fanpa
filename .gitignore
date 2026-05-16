@@ -1,0 +1,49 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+out/
+
+# .NET / ASP.NET Core
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.pid
+*.pidb
+*.svclog
+*.coverage
+*.coveragexml
+*.vspscc
+TestResults/
+wwwroot/lib/
+
+# Rider / JetBrains
+.idea/
+*.iml
+*.sln.DotSettings.user
+
+# Local .NET SDK state
+.dotnet/
+.nuget/
+
+# Docker
+**/docker-compose.override.yml
+**/.env
+**/.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# EF / migrations temp files
+*.db
+*.db-shm
+*.db-wal
+
+# Local app configuration overrides
+appsettings.Local.json
+appsettings.*.local.json
